@@ -2,6 +2,7 @@ import { BatteryCharging, Hand, Sparkles } from "lucide-react";
 import productImage from "../assets/images/lumina-product.png";
 import bedroomImage from "../assets/images/lumina-bedroom.png";
 import restaurantImage from "../assets/images/lumina-restaurant.png";
+import LuminaCadeau from "../assets/images/lumina-cadeau.png";
 import type { GalleryImage, Pack } from "../types/store";
 export const WHATSAPP_NUMBER = "33767653082";
 export const packs: Pack[] = [
@@ -44,6 +45,11 @@ export const gallery: GalleryImage[] = [
     src: restaurantImage,
     alt: "Lumina sur une table de restaurant chic",
     label: "Au restaurant",
+  },
+  {
+    src: LuminaCadeau,
+    alt: "Lumina en coffret cadeau",
+    label: "Coffret cadeau",
   },
 ];
 export const features = [
