@@ -1,0 +1,1 @@
+import styled from 'styled-components';const Mark=styled.a`font:800 24px 'Manrope',sans-serif;letter-spacing:-1.5px;i{color:${({theme})=>theme.colors.orange};font-style:normal}`;export const Logo=()=> <Mark href="#">Lumina<i>.</i></Mark>;

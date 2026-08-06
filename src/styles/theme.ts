@@ -1,0 +1,1 @@
+export const theme={colors:{ink:'#171715',cream:'#f6f2e9',paper:'#fffdf8',muted:'#6c6861',orange:'#ff7141',lime:'#dfff73',line:'#ded7cb',white:'#fff',whatsapp:'#25d366'},radius:{sm:'12px',md:'18px',lg:'28px',xl:'40px',pill:'999px'},shadow:{soft:'0 24px 70px rgba(48,31,15,.14)',lift:'0 15px 35px rgba(0,0,0,.18)'},layout:{max:'1160px'},bp:{mobile:'520px',tablet:'850px'}} as const;
