@@ -9,11 +9,18 @@ import { Faq } from "./components/sections/Faq";
 import { Closing } from "./components/sections/Closing";
 import { OrderModal } from "./components/order/OrderModal";
 import { useOrder } from "./hooks/useOrder";
-export default function App() {
+import type { ThemeMode } from "./hooks/useThemeMode";
+
+interface Props {
+  themeMode: ThemeMode;
+  onToggleTheme: () => void;
+}
+
+export default function App({ themeMode, onToggleTheme }: Props) {
   const order = useOrder();
   return (
     <>
-      <Header onOrder={order.openOrder} />
+      <Header onOrder={order.openOrder} themeMode={themeMode} onToggleTheme={onToggleTheme} />
       <main>
         <Hero onOrder={order.openOrder} />
         <Ticker />
