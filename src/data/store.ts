@@ -19,7 +19,6 @@ export const packs: Pack[] = [
     label: "2 Lumina",
     price: 100,
     description: "50 DT / pièce · économisez 18 DT",
-    
   },
   {
     quantity: 10,
